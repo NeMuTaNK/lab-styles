@@ -20,7 +20,9 @@
         android:contentDescription="@string/logoDescription"
         />
 
+
     <TextView
+        style="@style/TextStyle.ChildStyle2"
         android:id="@+id/label1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,6 +35,7 @@
         />
 
     <TextView
+        style="@style/TextStyle.ChildStyle2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/label1"
@@ -42,6 +45,7 @@
         />
 
     <TextView
+        style="@style/TextStyle.Labels"
         android:id="@+id/label2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -54,6 +58,7 @@
         />
 
     <TextView
+        style="@style/TextStyle.Labels"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toEndOf="@id/label2"
@@ -70,6 +75,7 @@
         >
 
         <TextView
+            style="@style/ChildStyle"
             android:id="@+id/label3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -81,6 +87,7 @@
             />
 
         <TextView
+            style="@style/ChildStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_toEndOf="@id/label3"
@@ -92,6 +99,7 @@
     </RelativeLayout>
 
     <Button
+        style="@style/NewButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
